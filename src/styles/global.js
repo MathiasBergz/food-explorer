@@ -12,6 +12,32 @@ export default createGlobalStyle`
     }
 
     body {
-        
+        background: ${({ theme }) => theme.COLORS.DARK_400};
+
+        -webkit-font-smoothing: antialiased;
+    }
+
+    body, input, textarea {
+        font-size: 1.6rem;
+        font-family: 'Roboto', sans-serif;
+        outline: none;
+    }
+
+    button {
+        font-size: 1.6rem;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    button, a {
+        cursor: pointer;
+        transition: filter 0.2s;
+    }
+    
+    button:hover, a:hover {
+        filter: brightness(0.9);
     }
 `;
