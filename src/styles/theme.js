@@ -2,6 +2,7 @@ export default {
     COLORS: {
         //DARK
         DARK_400: "hsla(199, 100%, 3%, 1)",
+        DARK_700: "hsla(199, 100%, 5%, 1)",
         DARK_900: "hsla(200, 48%, 10%, 1)",
 
         //LIGHT
