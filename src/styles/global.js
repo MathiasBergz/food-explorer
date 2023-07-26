@@ -25,7 +25,6 @@ export default createGlobalStyle`
 
     button {
         font-size: 1.6rem;
-        font-family: 'Poppins', sans-serif;
     }
 
     a {
@@ -34,6 +33,7 @@ export default createGlobalStyle`
 
     button, a {
         cursor: pointer;
+        font-family: 'Poppins', sans-serif;
         transition: filter 0.2s;
     }
     
