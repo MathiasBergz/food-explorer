@@ -2,11 +2,13 @@ import { Container, Form } from "./styles";
 import { Input } from "../../components/Input";
 import { Button } from "../../components/Button";
 
+import LogoImg1 from "../../assets/Logo.png"
+
 export function SignUp() {
     return(
         <Container>
             <header>
-                <img src="https://github.com/MathiasBergz.png" alt="Food Explorer logo" />
+                <img src={LogoImg1} alt="Food Explorer logo" />
                 <h1>food explorer</h1>
             </header>
             <Form>
@@ -26,7 +28,7 @@ export function SignUp() {
 
                 <Button title="Entrar"/>
 
-                <a href="#">Criar uma conta</a>
+                <a href="#">Já tenho uma conta</a>
             </Form>
         </Container>
     )
